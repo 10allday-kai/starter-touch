@@ -1,0 +1,8 @@
+{
+    "copy": [
+        { "from": "src/manifest.webapp" },
+        { "from": "src/assets", "to": "assets" },
+        { "from": "node_modules/@webcomponents/webcomponentsjs/bundles","to": "bundles" },
+        { "from": "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js", "to": "" }
+    ]
+}

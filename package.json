@@ -1,0 +1,27 @@
+{
+  "name": "starter-touch",
+  "version": "0.0.1",
+  "description": "App template to develop touch apps.",
+  "scripts": {
+    "dev": "kscripts dev --watch",
+    "build": "kscripts prod"
+  },
+  "author": "iTriad",
+  "license": "MIT",
+  "devDependencies": {
+    "@kaios/kscripts": "https://github.com/kaiostech/buildscripts.git",
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-lit": "^1.0.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-custom-processor-loader": "^0.6.0",
+    "stylelint-processor-styled-components": "^1.8.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.0"
+  }
+}

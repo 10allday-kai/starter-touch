@@ -1,0 +1,27 @@
+{
+  "name": "KaiOS Starter Touch",
+  "version": "0.0.1",
+  "categories": ["utilities"],
+  "description": "App template to develop touch apps.",
+  "developer": {
+    "name": "KaiOS",
+    "url": "http://kaiostech.com"
+  },
+  "launch_path": "/index.html",
+  "type": "privileged",
+  "permissions": {},
+  "theme_color": "#8500DB",
+  "default_locale": "en-US",
+  "locales": {},
+  "icons": {
+    "56": "/assets/icons/starter_56.png",
+    "84": "/assets/icons/starter_84.png",
+    "112": "/assets/icons/starter_112.png"
+  },
+  "orientation": "default",
+  "activities": {},
+  "chrome": {
+    "statusbar": "overlap"
+  },
+  "origin": "app://kaios.starter-touch.net"
+}
